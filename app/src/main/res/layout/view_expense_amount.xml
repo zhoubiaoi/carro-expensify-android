@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/dp_12">
+    <sg.carro.claims.view.CustomFont
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/expense_text_grey1"
+        app:textStyle="medium"
+        android:textSize="@dimen/sp_12"
+        android:text="@string/amount"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:id="@+id/layout_add_item"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_rounded_corner_expense_add_item"
+        android:layout_marginTop="@dimen/dp_16">
+
+        <sg.carro.claims.view.CustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dp_12"
+            android:text="@string/add_new_item"
+            android:textColor="@color/new_expense_text_save"
+            android:textSize="@dimen/sp_14"
+            app:textStyle="medium" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:src="@drawable/ic_add_amount"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

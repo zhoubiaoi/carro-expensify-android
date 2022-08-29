@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="24dp"
+        android:paddingTop="@dimen/dp_16"
+        android:paddingEnd="24dp"
+        android:paddingBottom="@dimen/dp_10">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height=".4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/expense_text_grey" />
+
+        <sg.carro.claims.view.CustomFont
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:textColor="@color/expense_text_grey1"
+            android:textSize="@dimen/sp_14" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height=".4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/expense_text_grey" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false" />
+</LinearLayout>

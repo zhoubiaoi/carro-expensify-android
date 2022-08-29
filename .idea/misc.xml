@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../.gradle/caches/transforms-3/fbf82f18569f46bc9b2a707e9deb3a76/transformed/jetified-nice-spinner-1.4.4/res/layout/spinner_list_item.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/drawable/bg_new_expense_frame.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/bg_rounded_corner_expense_add_item.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/bg_rounded_corner_expense_type_check.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/bg_rounded_corner_expense_type_uncheck.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/bg_rounded_corner_main_page.xml" value="0.1453125" />
+        <entry key="app/src/main/res/drawable/button_rounded_corner_approved.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/button_rounded_corner_login.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/button_rounded_corner_login_uncheck.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/button_rounded_corner_not_submitted.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/button_rounded_corner_reimbursed.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/button_rounded_corner_rejected.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/button_rounded_corner_submitted.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/circle_primary.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/drawable/ic_add_frame.xml" value="0.1453125" />
+        <entry key="app/src/main/res/drawable/ic_btn_create.xml" value="0.1453125" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_new_expense.xml" value="0.26337448559670784" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/dialog_loading.xml" value="0.11666666666666667" />
+        <entry key="app/src/main/res/layout/item_expense_amount.xml" value="0.3160493827160494" />
+        <entry key="app/src/main/res/layout/item_expenses_date.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/item_expenses_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/view_custom_empty.xml" value="0.12916666666666668" />
+        <entry key="app/src/main/res/layout/view_custom_toolbar.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/view_expense_amount.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/view_expense_image.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/view_expense_info.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/view_expense_type.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/view_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/view_login_success.xml" value="0.14447463768115942" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

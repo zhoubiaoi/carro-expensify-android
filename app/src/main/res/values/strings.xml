@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Claims From Carro</string>
+    <string name="custom_font_regular" translatable="false">AvenirNext-Regular.ttf</string>
+    <string name="custom_font_medium" translatable="false">AvenirNext-Medium.ttf</string>
+    <string name="custom_font_bold" translatable="false">AvenirNext-Bold.ttf</string>
+    <string name="custom_font_demibold" translatable="false">AvenirNext-DemiBold.ttf</string>
+    <string name="loading_wait">Please wait...</string>
+    <string name="sign_in">Login with Work Email</string>
+    <string name="login_page_title">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_login_in">Please login with your work email.</string>
+    <string name="email_address">Your email address</string>
+    <string name="pass_word">Your password</string>
+    <string name="success">Success!</string>
+    <string name="success_message">Your details has been verified.\nTaking you to Carro Admin App</string>
+    <string name="personal">Personal</string>
+    <string name="inventory">Inventory</string>
+    <string name="empty_message">Create a new expense</string>
+    <string name="my_expenses">My Expenses</string>
+    <string name="not_submitted">Not Submitted</string>
+    <string name="submitted">Submitted</string>
+    <string name="approved">Approved</string>
+    <string name="reimbursed">Reimbursed</string>
+    <string name="rejected">Rejected</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_expense">New Expense</string>
+    <string name="save">Save</string>
+    <string name="not_saved">Not Saved</string>
+    <string name="personal_expense">Personal Expense</string>
+    <string name="inventory_expense">Inventory Expense</string>
+    <string name="category">Category</string>
+    <string name="select_category">Select expense category</string>
+    <string name="carplate">Carplate</string>
+    <string name="enter_carplate">Enter carplate</string>
+    <string name="Vendor">Vendor</string>
+    <string name="enter_vendor_name">Enter vendor name</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select the invoice date</string>
+    <string name="amount">Amount</string>
+    <string name="enter_description">Enter item description</string>
+    <string name="add_new_item">Add new item and cost</string>
+    <string name="capture_file_receipt">Capture/File Receipt</string>
+    <string name="make_a_claim">Make a Claim</string>
+</resources>

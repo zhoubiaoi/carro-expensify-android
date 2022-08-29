@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/view_custom_toolbar"
+            android:id="@+id/custom_toolbar"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_14"
+            android:background="@drawable/bg_new_expense_frame">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <sg.carro.claims.view.CustomFont
+                        android:id="@+id/cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dp_14"
+                        android:text="@string/cancel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_14"
+                        app:textStyle="medium" />
+
+                    <sg.carro.claims.view.CustomFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:padding="@dimen/dp_14"
+                        android:text="@string/new_expense"
+                        android:textColor="@color/expense_text_grey1"
+                        android:textSize="@dimen/sp_14"
+                        app:textStyle="demibold" />
+
+                    <sg.carro.claims.view.CustomFont
+                        android:id="@+id/save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:padding="@dimen/dp_14"
+                        android:text="@string/save"
+                        android:textColor="@color/new_expense_text_save"
+                        android:textSize="@dimen/sp_14"
+                        app:textStyle="medium" />
+                </RelativeLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_13"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/dp_8">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dp_16">
+
+                        <sg.carro.claims.view.CustomFont
+                            android:id="@+id/tv_not_save"
+                            android:layout_width="100dp"
+                            android:layout_height="@dimen/dp_16"
+                            android:layout_alignParentEnd="true"
+                            android:background="@drawable/button_rounded_corner_not_submitted"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:text="@string/not_saved"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp_12" />
+
+                        <sg.carro.claims.ui.expense.view.ExpenseTypeView
+                            android:id="@+id/layout_expense_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_not_save" />
+
+                        <sg.carro.claims.ui.expense.view.ExpenseInfoView
+                            android:id="@+id/layout_expense_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/layout_expense_type" />
+
+                        <sg.carro.claims.ui.expense.view.ExpenseAmountView
+                            android:id="@+id/layout_expense_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/layout_expense_info" />
+
+                        <sg.carro.claims.ui.expense.view.ExpenseImageView
+                            android:id="@+id/layout_expense_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/layout_expense_amount"/>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/btn_claim"
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp"
+                            app:cardBackgroundColor="@android:color/transparent"
+                            android:layout_marginTop="20dp"
+                            android:layout_below="@id/layout_expense_image"
+                            >
+                            <sg.carro.claims.view.CustomFont
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/button_rounded_corner_login"
+                                android:gravity="center"
+                                android:text="@string/make_a_claim"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textAllCaps="false"
+                                app:textStyle="demibold"
+                                />
+                        </com.google.android.material.card.MaterialCardView>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

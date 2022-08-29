@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginTop="24dp">
+    <sg.carro.claims.view.CustomFont
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg_rounded_corner_expense_type_uncheck"
+        android:textSize="@dimen/sp_14"
+        android:text="@string/personal_expense"
+        android:textColor="@color/main_top_uncheck"
+        app:textStyle="medium"
+        android:gravity="center"
+        android:layout_marginEnd="@dimen/dp_4"/>
+    <sg.carro.claims.view.CustomFont
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="@dimen/sp_14"
+        android:text="@string/inventory_expense"
+        android:textColor="@color/colorPrimary"
+        app:textStyle="medium"
+        android:gravity="center"
+        android:background="@drawable/bg_rounded_corner_expense_type_check"
+        android:layout_marginStart="@dimen/dp_4"/>
+</LinearLayout>

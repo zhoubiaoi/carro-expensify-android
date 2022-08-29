@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomFont">
+        <attr name="textStyle" format="string" />
+        <attr name="android:ellipsize" />
+        <attr name="android:maxLines" />
+        <attr name="android:textStyle" />
+    </declare-styleable>
+</resources>
